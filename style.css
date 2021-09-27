@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+/* Global Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+a{  text-decoration: none;
+}
+
+ /* 1ere partie en css  */
+ #class1{
+     background-color: #003668;
+     color: #ffff;
+     padding: 16px 80px;
+ }
+ .ensavoir{
+     text-align: end;
+ }
+ .class1-a{
+    text-decoration: none;
+    color: #ffff;
+    font-size: 14px;
+    font-weight: 800;
+    text-align: center;
+    justify-content: center;
+    padding: 0.8rem 1rem;
+}
+.class1-a:hover{
+    color: #ffff;
+    border-radius: 0.5rem;
+    background-color: #074b8bc0;
+}
+
+#class2 .menu_nab{
+    position: absolute;
+    top: 0px;
+    top: -2500px;
+    height: 100vh;
+    padding-left: 50px;
+    padding-top: 10px;
+}
+body{
+    position: relative;
+}
+.menu1{
+   display: none;
+}
+
+@media screen and ( max-width: 576px){
+   
+    #class1{
+        display: none;
+    }
+    #class2{
+        padding: 10px 10px;
+    }
+}
+@media screen and ( max-width: 780px){
+    .menu1{
+        display: block;
+        color: #6b52bd;
+        padding: 0.5rem;
+        border-radius: 50%;
+    }
+    .menu1 i{
+        font-size: 1.7rem;
+    }
+    .menu1:hover{
+        background-color: #483f6654;
+        cursor: pointer;
+    }
+    #class2{
+        padding: 0;
+        margin: 0;
+    }
+    #class2 .menu_nav{
+        position: absolute;
+        top: 0px;
+        left: 0px;
+    }
+}
+
+
+/* FIN CLass 1 */
+
+/* Debut class 2 */
+#class2{
+    padding: 16px 80px;
+}
+
+@media all and (min-width: 992px) {
+	
+	.navbar .has-megamenu{position:static!important;}
+	.navbar .megamenu{left:0; right:0; width:100%; margin-top:0;  }
+	
+}
+
+/* Partie header  */
+header.header{
+    background-color: #7451EB;
+    text-align: end;
+}
+.color{
+    font-size: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 9px;
+    margin-bottom: -3px;
+    width: 42%;
+    font-weight: 900;
+    background-color: #003668;
+}
+h2#mbas{
+    width: 48%;
+    margin-bottom: 10px;
+}
+a.search{
+    color: black;
+    font-size: 1.7rem;
+}
+a.search i{
+    margin-top: 10px;
+}
+a.search:hover{
+    color: #7451EB;
+}
+a.connecter{
+    font-weight: 900;
+    font-size: 1rem;
+    color: #7451EB;
+    padding: 0.6rem;
+    border: 0.1rem solid #7451EB;
+    text-decoration: none;
+    border-radius: 0.2rem;
+}
+a.connecter:hover{
+    background-color: #5f748665;
+}
+@media screen and ( max-width: 800px){
+    #reverse{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-content: center;
+        margin: 3rem;
+    }
+    .color{
+        font-size: 35px;
+        width: 70%;
+        font-weight: 900;
+    }
+    h2#mbas{
+        width: 90%;
+    }
+}
+
+/* / Secction 1  */
+
+.section1 h2{
+    margin: 5px;
+    color: #003668;
+    font-weight: 900;
+}
+.section1 p{
+    font-weight: 550;
+}
+.boutom{
+    margin-top: 45px;
+}
+.boutom a.boutom_a{
+    font-weight: 900;
+    font-size: 1rem;
+    color: #7451EB;
+    padding: 0.6rem;
+    border: 0.1rem solid #7451EB;
+    text-decoration: none;
+    border-radius: 0.2rem;
+    background-color: #ffff;
+    box-shadow: 1px 2px 3px #003668;
+}
+.boutom a.boutom_a:hover{
+    box-shadow: 3px 6px 3px #003668;
+}
+/* / Secction 1  */
+.section2 h2{
+    background: #7451EB;
+    width: 80%;
+    color: #ffff;
+    font-weight: 900;
+    padding: 0.5rem;
+}
+ /* SECTION CAROUSEL */
+ .carouxel .row h3{
+     color: #003668;
+     font-weight: 900;
+ }
+.row a.play{
+    text-decoration: none;
+    color: #6b52bd;
+    font-weight: 900;
+    padding: 8px 10px;
+    border-radius: 5px;
+}
+.row a.play:hover{
+    background-color: #827c9983;
+}
+
+/* partie footer */
+.liste-style a i{
+    font-size: 1.6rem;
+    margin: 0.2rem;
+    padding: 0.5rem;
+    color: black;
+    border: 0.1rem solid black;
+    border-radius: 50%;
+}
+.liste-style a i:hover{
+    background-color: blue;
+    color: #fff;
+    border-color: white;
+}
+.liste-style a i:first-child:hover{
+    background-color: #4b0cc09b;
+}
